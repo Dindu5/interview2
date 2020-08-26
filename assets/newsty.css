@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&family=Montserrat&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 body {
     width: 100%;
@@ -9,21 +13,25 @@ body {
 
 header {
     background: #4031B7;
-    height: 650px;
     padding: 2rem;
     color: white !important;
 }
 .topnav {
     padding: 1rem 1.4rem;
+    
 }
 .topnav a {
     color: #B6D2E3;
+    position: relative;
+    z-index: 2;
 }
 .topnav a:hover {
     text-decoration: none;
 }
 .navbar {
     background-color: none !important;
+    padding-right: 6rem !important;
+    z-index: 1;
 }
 .navbar-brand {
     color: white !important;
@@ -35,5 +43,57 @@ header {
 }
 #signup {
     border: 1px solid #B6D2E3;
-    border-radius: 10px;
+    border-radius: 15px;
+}
+.content{
+    width:50%;
+    margin: 3.5rem 2rem;
+}
+.video_area {
+    width:50%;
+    margin: 4.5rem 0rem;
+    z-index: 10;
+}
+.content h1{
+    color: #FFF8F8;
+    font-size: 3.6rem;
+    margin: 1.8rem 0;
+    font-family: 'Baskervville', serif;
+}
+.content h1 span {
+    color: #8CFFF1;
+}
+.content p {
+    line-height: 2;
+    letter-spacing: 0.1rem;
+    width: 80%;
+
+}
+.link_area {
+    margin: 2.6rem 0;
+}
+.content button {
+    background: #60CBBE;
+    border-radius: 50px;
+    margin-right: 1rem;
+    color: #FFF8F8;
+    padding: 0.8rem 3rem;
+}
+.link_area a {
+    padding: 0.8rem 0;
+    color: #FFF8F8;
+}
+.contain_img {
+    z-index: 4;
+}
+.contain_img img{
+    float:right;
+    margin-left: auto;
+    margin-right: -2rem;
+    z-index: 3 !important;
+}
+.artboard {
+    right: 0;
+    top: 0;
+    z-index: 0;
 }
