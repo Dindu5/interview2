@@ -9,6 +9,8 @@ body {
 .first {
     background-color: #ffffff;
     padding-left: 4rem;
+    padding-top: 3rem; 
+    width: 40%;
 }
 .second {
     background: rgba(106, 121, 221, 0.06);
