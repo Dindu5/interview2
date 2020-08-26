@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+}
+.first {
+    background-color: #ffffff;
+    padding-left: 4rem;
+}
+.second {
+    background: rgba(106, 121, 221, 0.06);
+    width: 60%
+}
