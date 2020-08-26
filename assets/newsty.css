@@ -10,6 +10,7 @@ body {
     width: 100%;
     height: 100vh;
 }
+
 header {
     background: #4031B7;
     padding: 2rem;
@@ -71,12 +72,13 @@ header {
 .link_area {
     margin: 2.6rem 0;
 }
-.content button {
-    background: #60CBBE;
-    border-radius: 50px;
+.content button,
+.demo_btn {
+    background: #60CBBE !important;
+    border-radius: 50px !important;
     margin-right: 1rem;
-    color: #FFF8F8;
-    padding: 0.8rem 3rem;
+    color: #FFF8F8 !important;
+    padding: 0.8rem 3rem !important;
 }
 .link_area a {
     padding: 0.8rem 0;
@@ -100,7 +102,7 @@ header {
 /* ============================================ */
 /* ===================== SECTION ============== */
 .body_sec {
-    padding: 4rem 3rem;
+    padding: 4rem 6rem !important;
 }
 .title_text{
     margin: 3rem 0;
@@ -120,6 +122,157 @@ header {
     margin-bottom: 1rem;
     font-family: 'Baskervville', serif;
 }
-.first_sec p {
+.first_sec p,
+.list_element p {
+    font-size: 0.75rem;
+}
+
+
+.sec_three {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    padding: 2rem 3rem !important;
+}
+.list_element {
+    margin: 2.2rem 0;
+}
+.img_box img {
+    width: 100%;
+    height: auto;
+}
+.sec_three h3 {
+    font-family: 'Baskervville', serif;
+    color: #111028;
+    font-size: 2.4rem;
+    width: 75%;
+    margin: 1rem 0 !important;
+}
+.list_element h6 {
+    color: #17162D;
+    font-weight: 600;
+    font-size: 1.2rem;
+    font-family: 'Baskervville', serif;
+}
+.list_element p {
+    margin-bottom: 0 !important;
+}
+.sec_three_one,
+.sec_three_two {
+    width: 50%;
+}
+.sec_three_one{
+    margin-left: 3rem;
+}
+.sec_three_two {
+    padding-left: auto;
+}
+.sec_three_two img {
+    width: 100%;
+    height: auto;
+    z-index: 3;
+}
+.artboard2 {
+    max-height: 700px;
+    margin-left: auto;
+    right: 0;
+    z-index: 1;
+}
+.sec_four {
+    margin: 3rem 0;
+    padding: 0 !important;
+}
+.sec_four_one {
+    width: 50%;
+}
+.sec_four_one img {
+    width: 100%;
+    height: auto;
+}
+.sec_four_two {
+    width: 45%;
+    padding: 0 8vw;
+    margin-left: auto;
+}
+.sec_four_two .title_desc {
+    line-height: 1.5;
+    color: #828282;
+}
+.experience_row p {
     font-size: 0.8rem;
+}
+.sec_four_img img {
+    width: 100%;
+    height: auto;
+}
+
+
+.sec_five {
+    padding: 6rem 6rem !important;
+    margin-top: 7rem;
+    background-image: url(./Group\ 162.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.demo_btn {
+    margin-right: 0rem;
+    color: #FFF8F8 !important;
+}
+.sec_five h3 {
+    margin: 1rem 0;
+}
+
+
+footer {
+    padding: 0.4rem 6rem;
+}
+.footer_top {
+    width: 100%;
+    margin: 2rem 0;
+    margin-top: 5rem;
+}
+#foot_grid {
+    width: 75% !important;
+}
+.logo_area {
+    width: 30%;
+
+}
+.logo_area img {
+    margin-left: auto;
+}
+footer h6 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+footer a {
+    color: #bdbdbd;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+.footer_middle {
+    padding-bottom: 1rem;
+}
+.footer_middle,
+.footer_bottom {
+    padding: 0.6rem 0;
+}
+.footer_middle {
+    padding-bottom: 1rem;
+}
+
+.footer_middle p,
+.footer_bottom p {
+    font-size: 0.8rem;
+    margin-bottom: 0;
+    color: #bdbdbd;
+}
+.footer_middle span {
+    color: #4445b7;
+    font-weight: 800;
+}
+.footer_bottom {
+    padding-top: 1rem;
+    border-top: 0.5px solid rgba(130, 130, 130, 0.5);
 }
