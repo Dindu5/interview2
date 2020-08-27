@@ -328,6 +328,9 @@ footer a {
 }
 
 @media screen and (max-width: 1024px) {
+    .navbar-toggler {
+        color: white;
+    }
     .art_cover {
         width: 16.8rem;
     }
@@ -403,6 +406,10 @@ footer a {
 @media screen and (max-width: 768px) {
     #header_contents {
         flex-direction: column;
+    }
+    .nav-link {
+        max-width: fit-content;
+        margin: 0.3rem auto !important;
     }
     .content{
         width:100%;
