@@ -99,10 +99,22 @@ header {
     font-size: 0.9rem !important;
     color: #FFF8F8 !important;
     padding: 0.6rem 2.5rem !important;
+    transition: all 0.6s
+}
+.content button:hover,
+.demo_btn:hover {
+    transform: translateY(-3px);
+    background: #47998f !important;
 }
 .link_area a {
     padding: 0.8rem 0;
     color: #FFF8F8;
+    transition: all 0.6s
+}
+.link_area a:hover {
+    color: #8cfff1;
+    text-decoration: none;
+    transform: translateY(-3px);
 }
 .contain_img {
     z-index: 4;
@@ -300,6 +312,12 @@ footer a {
     color: #bdbdbd;
     font-size: 0.8rem;
     margin-bottom: 1rem;
+    transition: all 0.6s;
+}
+footer a:hover {
+    color: #4445b7;
+    text-decoration: none;
+    transform: translateY(-3px)
 }
 .footer_middle {
     padding-bottom: 1rem;
