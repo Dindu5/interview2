@@ -571,7 +571,7 @@ footer a {
         font-size: 1.8rem;
     }
     .artboard2 {
-        height: 350px
+        height: 380px
     }
     .list_element_img {
         width: 17%;
@@ -582,13 +582,20 @@ footer a {
     .sec_three_one {
         margin: 2rem 1rem;
         padding: 0 1rem;
+        margin-bottom: 4rem;
     }
+    
     .sec_four_two {
-        padding: 1rem 2.4rem;
+        padding: 3rem 2.4rem;
     }
+
     .sec_four_one {
         padding: 1rem 3rem;
         padding-left: 0;
+    }
+    .sec_five {
+        padding: 6rem 3rem !important;
+        margin-top: 2rem;
     }
     footer {
         padding: 0.4rem 3rem;
