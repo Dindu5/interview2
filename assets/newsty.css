@@ -407,12 +407,20 @@ footer a {
     .content{
         width:100%;
         margin: 3rem 4rem !important;
+        padding: 0 2rem;
         text-align: center;
         margin-right: 0rem;
     }
+    .content h1 {
+        font-size: 3rem;
+    }
     .link_area{
+        flex-direction: column;
         max-width: fit-content;
         margin: 2rem auto;
+    }
+    .demo_btn {
+        margin-right: 0 !important;
     }
     .video_area {
         width:100%;
@@ -429,6 +437,13 @@ footer a {
         width: 70%;
         margin-left: auto;
         margin-right: auto;
+    }
+    .title_text{
+        margin: 2.5rem 0;
+        font-size: 2rem
+    }
+    .title_desc {
+        font-size: 0.8rem;
     }
     .content p {
         width: 100%;
@@ -490,5 +505,91 @@ footer a {
         width: 100%;
         text-align: center;
         margin-bottom: 2rem;
+    }
+}
+@media screen and (max-width: 568px) {
+    .navbar {
+        padding: 0 !important;
+    }
+    .topnav {
+        padding: 0.5rem 0;
+    }
+    .topnav a {
+        font-size: 0.8rem
+    }
+    .content {
+        margin: 1rem 2.2rem !important;
+    }
+    .content h1 {
+        font-size: 2.5rem;
+    }
+    .contain_img{
+        width: 90%;
+    }
+    .link_area {
+        margin-bottom: 0rem;
+    }
+    .link_area a {
+        font-size: 0.8rem;
+    }
+    .nav-link {
+        font-size: 0.8rem !important;
+    }
+    .art_cover {
+        top: 58%;
+    }
+    .title_text{
+        margin: 1.5rem 0;
+        font-size: 1.8rem
+    }
+    .title_desc {
+        font-size: 0.8rem;
+    }
+    .body_sec {
+        padding: 3rem 4rem !important;
+    }
+    .body_sec_row .col-lg-4 {
+        margin: 0 !important;
+        margin-top: 1rem !important;
+    }
+    .body_sec_row .my-1{
+        width: 47%;
+        margin: 0.5rem auto !important;
+    }
+    .body_sec_row img {
+        width: 100%;
+        height: auto;
+    }
+    .sec_three h3 {
+        font-size: 1.8rem;
+    }
+    .artboard2 {
+        height: 350px
+    }
+    .list_element_img {
+        width: 17%;
+    }
+    .sec_three {
+        padding: 1rem 1.4rem !important;
+    }
+    .sec_three_one {
+        margin: 2rem 1rem;
+        padding: 0 1rem;
+    }
+    .sec_four_two {
+        padding: 1rem 2.4rem;
+    }
+    .sec_four_one {
+        padding: 1rem 3rem;
+        padding-left: 0;
+    }
+    footer {
+        padding: 0.4rem 3rem;
+    }
+    .logo_area {
+        transform: translateX(-1rem) translateY(-0.3rem);
+    }
+    .footer_bottom {
+        flex-direction: column;
     }
 }
